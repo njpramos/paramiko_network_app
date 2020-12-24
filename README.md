@@ -32,10 +32,10 @@ The program will excecute the following tasks sequentially:
 * Check the validity of the host IP addresses using the `ip_add_check()` function in the `ip_add_valid` module.
 * Verify the connectivity of each hosts from the PC1 using `icmp_request()` function in the `ip_reach` module.
 * Connect to each device using SSH and create threads for simultaneous sending of configuration commands.
-..* The `create_threading()` function will run and pass the arguments to `ssh_connect()` function to allow SSH connection and send the IOS commands listed in `config.txt`
+* The `create_threading()` function will run and pass the arguments to `ssh_connect()` function to allow SSH connection and send the IOS commands listed in `config.txt`
 
 ### Sample Output
 
-![network topology](/sample_output.png)
+![sample outputy](/sample_output.png)
 
 _Note: After the all IP addresses were checked and validated. The program will prompt the user to enter the SSH username and password to push the configuration commands to each devices_
