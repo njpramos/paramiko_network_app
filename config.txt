@@ -1,0 +1,7 @@
+conf t
+vlan 10
+name HR
+vlan 20
+name IT
+vlan 30
+name Accounting
