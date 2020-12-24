@@ -36,6 +36,6 @@ The program will excecute the following tasks sequentially:
 
 ### Sample Output
 
-![sample outputy](/sample_output.png)
+![sample output](/sample_output.png)
 
 _Note: After the all IP addresses were checked and validated. The program will prompt the user to enter the SSH username and password to push the configuration commands to each devices_
