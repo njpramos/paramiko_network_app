@@ -1,4 +1,4 @@
-# Reading/Writing Cisco IOS Device Configuration using Paramiko in Linux OS
+# Reading/Writing Cisco IOS Device Configurations using Paramiko in Linux
 
 This app uses Paramiko via Python3 scripting and implements SSH protocol to read, extract and write Cisco IOS configuration commands to Cisco Switches (IOSV-L2 image) in GNS3.
 
@@ -23,7 +23,6 @@ _Note: The devices were pre-configured with base configurations and SSH enabled_
 
 ```
 root@PC1~/network_app# python3 main.py
-
 ```
 
 The program will excecute the following tasks sequentially:
