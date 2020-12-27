@@ -4,7 +4,7 @@ This app uses Paramiko via Python3 scripting and implements SSH protocol to read
 
 ### Network Topology
 
-![network topology](/network_topology.png)
+![network topology](https://github.com/njpramos/paramiko_network_app/blob/master/network_topology.PNG?raw=true)
 
 #### IP Address Scheme
 
@@ -35,6 +35,6 @@ The program will excecute the following tasks sequentially:
 
 ### Sample Output
 
-![sample output](/sample_output.png)
+![sample output](https://github.com/njpramos/paramiko_network_app/blob/master/sample_output.PNG?raw=true)
 
 _Note: After the all IP addresses were checked and validated. The program will prompt the user to enter the SSH username and password to push the configuration commands to each devices_
